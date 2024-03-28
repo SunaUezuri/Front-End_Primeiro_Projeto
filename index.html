@@ -7,6 +7,24 @@
     <meta name="viewport" content="width=device-width,initial-scale1.0" />
     <title>Página básica</title>
 
+
+    <style>
+      a{
+        background-color: blue;
+        color: white;
+          text-decoration: none;
+      }
+
+
+
+      .link{
+        display: inline;
+      }
+
+    </style>
+
+
+
   </head>
   <body>
     <div id="container">
@@ -15,17 +33,17 @@
       <header id="cabecalho">
         <!--header#cabecalho. -->
 
-        <h1>Minha Página</h1>
+        <h1 style="color: red">Minha Página</h1>
         <nav>
           <!--nav>ul>li*3>a[href="#"]{Item - $}  criar listas com link-->
           <ul>
-            <li>
+            <li class="link">
               <a href="./paginas/help.html">
                 <img src="./img/471664.png" alt="Interrogação" width="4%" />
               </a>
             </li>
 
-            <li>
+            <li class="link">
               <a href="./paginas/about.html">
                 <img
                   src="./img/info.png"
@@ -35,8 +53,8 @@
               </a>
             </li>
 
-            <!--comando "./". -->
-            <li>
+            <!--comando "./" -->
+            <li class="link">
               <a href="./paginas/contact.html">
                 <img
                   src="./img/contact-us (1).png"
@@ -52,7 +70,7 @@
 
       <section id="conteudo">
         <div>
-          <h2>HELP</h2>
+          <h2 class="link">HELP</h2>
           <p>
             Help - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Ratione qui iure blanditiis eos itaque adipisci fuga maiores sunt?
